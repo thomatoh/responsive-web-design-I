@@ -1,16 +1,97 @@
 <!doctype html>
 
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>Great Idea - Responsive I</title>
 
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Great Idea - Responsive I</title>
   <link href="https://fonts.googleapis.com/css?family=Bangers|Titillium+Web" rel="stylesheet">
   <link rel="stylesheet" href="css/index.css">
+  <!-- order of the media sheet matters! Order changes depending on which media you start off with -->
+  <link rel="stylesheet" media="(max-width: 800px)" href="css/max-800px.css">
+  <link rel="stylesheet" media="(max-width: 500px)" href="css/max-500px.css">
 
 </head>
 
 <body>
-<!-- Use past code you created here for Great Idea Web Page or past solution for Great Idea Web Page HTML here! -->
+
+  <header>
+    <div>
+      <a href="#">Services</a>
+      <a href="#">Product</a>
+      <a href="#">Vision</a>
+      <a href="#">Features</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </div>  
+    <img class="logo" src="img/logo.png" alt="Great Idea! Company logo.">
+  </header>
+
+  <section class="below-header">
+
+    <section class="start-section">
+
+      <div class="start-div">
+        <h1>Innovation<br>
+        On<br>
+        Demand</h1>
+        <div class="start-button"><a href="#">Get Started</a></div>
+      </div>
+      <img class="start-img" src="img/header-img.png" alt="Image of a code snippet.">
+
+    </section>
+
+    <section class="detail-section upper">
+
+      <div class="detail-div">
+        <h3>Features</h3>
+        <p>Aliquam elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.</p>
+      </div>
+
+      <div class="detail-div">
+        <h3>About</h3>
+        <p>Aliquam elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.</p>
+      </div>
+    </section>
+
+    <div class="middle-img"></div>
+    
+    <section class="detail-section lower">
+
+      <div class="detail-div three-col">
+        <h3>Services</h3>
+        <p>Aliqu 3cam elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.</p>
+      </div>
+
+      <div class="detail-div three-col">
+        <h3>Product</h3>
+        <p>Aliqua 3cm elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.</p>
+      </div>
+
+      <div class="detail-div three-col">
+        <h3>Vision</h3>
+        <p>Aliquam elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.</p>
+      </div>
+
+    </section>
+
+
+
+    <footer>
+
+      <div class="address-div">
+        <h3>Contact</h3>
+        <address>123 Way 456 Street<br>
+        Somewhere, USA</address>
+        <p>1 (888) 888-8888</p>
+        <p>sales@greatidea.io</p>
+      </div>
+
+      <p class="copyright-p">Copyright Great Idea! 2018</p>
+
+    </footer>
+  </section>
 </body>
 </html>
