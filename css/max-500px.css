@@ -1,4 +1,4 @@
-@media (max-width: 600px) {
+@media (max-width: 500px) {
     header {
         flex-direction: column;
         width: 100%;
@@ -10,17 +10,17 @@
         display: block;
     }
 
-    .start-img {
-        margin-top: 50px;
-    }
-
     .detail-section {
         display: block;
     }
 
+    .start-img {
+        margin-top: 50px;
+    }
+
     .detail-div {
         width: 97%;
-        margin: 0 1.5% 15px 1.5%;
+        margin: 2% 2% 0 2%;
     }
 
 }
